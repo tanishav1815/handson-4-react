@@ -1,0 +1,81 @@
+
+.navsec{
+  background-color: rgb(205, 152, 223);
+  height: 80px;
+
+
+}
+
+.navbar{
+  display: grid;
+  grid-template-columns: 20% 20% 20%  ;
+  left: 100px;
+  position: relative;
+  /* bottom: 20px; */
+  justify-content: center;
+  text-decoration: none;
+  
+  
+}
+
+.homeText{
+  text-align: center;
+  background-image: linear-gradient(yellow,pink,purple);
+  height: 100vh;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 50px;
+}
+
+.Student{
+  font-size: 40px;
+  text-align: left;
+  font-weight: bolder;
+  
+}
+
+.table{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  background-color: white;
+  justify-items: center;
+  width:90vw ;
+  
+}
+
+.box {
+  
+  color:black;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.add{
+  position: relative;
+  bottom: 160px;
+  left: 550px;
+  width: 200px;
+  height: 30px;
+  font-weight: bolder;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.links{
+  width: 130px;
+  height: 50px;
+  background-color: beige;
+  position: relative;
+  margin: 10px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.links:hover{
+  background-color: pink;
+}
